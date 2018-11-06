@@ -1,0 +1,8 @@
+GET_SESSION_KEY_URL =https://italent2.demo.lithium.com/restapi/vc/authentication/sessions/login?user.login=saikumarn&user.password=Q!w2e3r4&restapi.response_format=json
+HTACCESS_HEAEDER_VALUE = Basic ZGVtbzAxOlN1UHIxKm1aTGk=
+BOARD_ID=java3-test
+CREATE_BOARD_URL=https://italent2.demo.lithium.com/restapi/vc/categories/id/Learn_Java_Lithium/boards/add?board.id=%BOARD_ID%&board.title=java1_test&restapi.session_key=%SESSION_KEY%&restapi.response_format=json
+MSG_URL = https://italent2.demo.lithium.com/restapi/vc/boards/id/%BOARD_ID%/messages/post?message.subject=messagesengfromeclipse&restapi.session_key=%SESSION_KEY%&restapi.response_format=json
+CHECK_BOARD =https://italent2.demo.lithium.com/restapi/vc/boards/id/%BOARD_ID%/id?restapi.session_key=%SESSION_KEY%&restapi.response_format=json
+CREATE_MSG_REPLY=https://italent2.demo.lithium.com/restapi/vc/messages/id/%MSG_ID%/reply?restapi.session_key=%SESSION_KEY%&message.subject=replyoftheabovemessage&restapi.response_format=json
+GETTING_USERS=https://italent2.demo.lithium.com/restapi/vc/users?restapi.session_key=%SESSION_KEY%&restapi.response_format=json
