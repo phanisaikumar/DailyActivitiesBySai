@@ -1,6 +1,5 @@
 package com.italent.utils;
 
-
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
@@ -55,7 +54,7 @@ public class LithiumUtils {
         }
         return null;
     }
-    
+
     public String generateSessionKey(String accTokenUrl) throws Exception {
         HttpResponse response = httpGetRequest(accTokenUrl);
         ObjectMapper objectMapper = new ObjectMapper();
