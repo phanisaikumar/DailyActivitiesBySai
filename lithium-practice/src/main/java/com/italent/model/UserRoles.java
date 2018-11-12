@@ -18,6 +18,8 @@ public class UserRoles {
     private int userId;
     @Column(name="role_id")
     private int roleId;
+    @Column(name="user_name")
+    private String userName;
     public int getUserId() {
         return userId;
     }
@@ -30,6 +32,14 @@ public class UserRoles {
     public void setRoleId(int roleId) {
         this.roleId = roleId;
     }
+    public String getUserName() {
+        return userName;
+    }
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+    
+    
     
     
 }
